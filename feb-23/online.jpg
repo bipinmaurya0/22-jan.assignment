@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.996" height="64" viewBox="0 0 97.996 64">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_3629" data-name="Path 3629" d="M0,0H16l.02,22.392H.02Z" transform="translate(139 20.533)" fill="#cb8de4" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="online-teaching-and-learning" transform="translate(0 -8.114)">
+    <g id="conference" transform="translate(-81 8.114)">
+      <circle id="Ellipse_157" data-name="Ellipse 157" cx="10.996" cy="10.996" r="10.996" transform="translate(108.489)" fill="#bf58e8"/>
+      <path id="Path_3623" data-name="Path 3623" d="M194.409,108.457a17.546,17.546,0,0,1-23.986,0,16.526,16.526,0,0,0-8.75,12.435h41.486A16.526,16.526,0,0,0,194.409,108.457Z" transform="translate(-62.932 -84.606)" fill="#9d35c7"/>
+      <path id="Path_3627" data-name="Path 3627" d="M153.572,142.009v-14.52h1.1a3.3,3.3,0,1,0,0-6.6h-3.3V107.7a3.3,3.3,0,0,0-.966-2.334l-4.4-4.4a3.3,3.3,0,0,0-4.665,4.666l3.432,3.431v11.829H84.3a3.3,3.3,0,1,0,0,6.6h1.1v14.52Z" transform="translate(0 -78.009)" fill="#bf58e8"/>
+      <g id="Mask_Group_55" data-name="Mask Group 55" clip-path="url(#clip-path)">
+        <path id="Path_3628" data-name="Path 3628" d="M153.572,142.009v-14.52h1.1a3.3,3.3,0,1,0,0-6.6h-3.3V107.7a3.3,3.3,0,0,0-.966-2.334l-4.4-4.4a3.3,3.3,0,0,0-4.665,4.666l3.432,3.431v11.829H84.3a3.3,3.3,0,1,0,0,6.6h1.1v14.52Z" transform="translate(0 -78.009)" fill="#cb8de4"/>
+      </g>
+    </g>
+    <g id="cursor" transform="translate(79.987 49.647)">
+      <path id="Path_3630" data-name="Path 3630" d="M88.024,85.319,84.31,81.605l2.65-1.53a.624.624,0,0,0-.081-1.12L75.063,74.242a.624.624,0,0,0-.811.811l4.712,11.816a.624.624,0,0,0,1.12.081l1.53-2.65,3.714,3.714a.624.624,0,0,0,.883,0L88.024,86.2A.624.624,0,0,0,88.024,85.319Z" transform="translate(-70.198 -70.2)" fill="#bf58e8"/>
+    </g>
+  </g>
+</svg>

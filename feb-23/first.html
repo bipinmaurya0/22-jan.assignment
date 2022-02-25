@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            width: 100%;
+            height: 600px;
+            background-color: rgb(105, 66, 19);
+            display: flex;
+        }
+        .box{
+            width:50%;
+            height: 600px;
+        }
+        #box2{
+        background-color: white;
+        padding: 20px;
+
+        }
+        .box img{
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+        input[type=text]{
+            font-size: large;
+            font-weight: bold;
+            padding: 10px;
+        }
+        input{
+            width: 500px;
+        }
+        input[type=button]{
+            background-color: blue;
+            color: white;
+            height: 50px;
+        }
+            input[type=number]{
+            font-size: large;
+            font-weight: bold;
+            padding: 10px;
+        }
+        p{
+            font-size:20px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box" id="box1">
+          <img src="hindu.jpg" alt="">
+        </div>
+        <div class="box" id="box2">
+            <h1>Sign up with your email</h1>
+            <p>Already have an account ? <a href="#">sign in</a></p>
+            <form action="">
+                <input type="text" placeholder="First name" >
+                <br><br>
+                <input type="text" placeholder="last name" >
+                <br>
+                <br>
+                <input type="text" placeholder="Email address" >
+                <br><br>
+                <input type="number" placeholder="password" >
+                <br><br>
+                <p>I agree to terms of <a href="#">Service</a> and <a href="#">Privacy policy</a></p>
+                <br>
+                <input type="button" value="Create account" style="font-size: 20px;">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

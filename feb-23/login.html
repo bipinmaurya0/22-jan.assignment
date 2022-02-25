@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .con{
+            display: flex;
+            width: 100%;
+            height: 630px;
+        }
+        .box{
+            width: 50%;
+            height: 100%;
+
+        }
+        #box2{
+            display: inline-block;
+            position:relative;
+            margin: auto;
+        
+        }
+        #box2 {
+            display:flex;
+            flex-direction:column;
+        }
+        .bo{
+
+        width: 100%;
+        height: 50%;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        #bo2{
+            display: inline-block;
+            text-align:center ;
+        }
+        #bo2 li{
+            display: inline-block;
+        }
+        #bo2 li a{
+            text-decoration: none;
+            font-size: 30px;
+            font-weight:bold ;
+            padding: 10px;
+    
+            border-radius: 5px ;
+        }
+        #bo2 li a:hover{
+            color:rgb(61, 68, 66);
+            text-decoration: underline;
+        }
+        h2{
+            text-align: center;
+        }
+        .second2{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 150px;
+        }
+        .b{
+            
+            width: 50%;
+            height: 100%;
+    
+           
+        }
+        #b1 img{
+            left: 240px;
+            top: 110px;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+        }
+        #b2 h3{
+            position: relative;
+            top: 35px;
+        text-decoration:underline;
+            
+        }
+        .form input{
+            position: relative;
+            width: 400px;
+            border-radius: 10px;
+            padding: 40px;
+        
+    }
+    input[type=text]{
+    position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 8px; 
+        margin-left:130px;
+    }
+    button{
+        display: block;
+        position:relative;
+        font-size: 20px;
+        padding: 8px;
+        left:275px;
+
+    }
+    .image img{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        left:275px;
+        margin-top:25px;
+        
+    }
+        </style>
+<body>
+   <div class="con">
+       <div class="box" id="box1">
+           <div class="first1">
+               <h2>Institution of Eminence</h2>
+           </div>
+           <div class="second2">
+               <div class="b"  id="b1">
+               <img src="delhi.jpg" alt="">
+               </div>
+               <div class="b" id="b2">
+                 <h3>दिल्ली विश्वविद्यालय</h2> 
+                 <h3>University of Delhi</h2>  
+            </div>  
+           </div>
+           <div class="form">
+               <form action="">
+                   <input type="text" placeholder="Enter your  Query">
+                   <br><br> <br>
+                   <button>Search</button>
+               </form>
+           </div>
+           <div class="image">
+               <img src="syber.jpg" alt="">
+               <h2>Cyber security</h2>
+           </div>
+       </div>
+       <div class="box" id="box2">
+        <div class="bo" id="bo1">
+            <img src="delhi.jpg" alt="">
+        </div>
+        <div class="bo" id="bo2">
+        <h1>Online Admission Form</h1>
+       <ul>
+           <li><a href="first.html">Regitraction</a></li>
+           <li><a href="second.html">Login</a>
+           </li>
+       </ul>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
