@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5456af31a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    <div class="con">
+        <div class="box">
+         <img src="404.jpg" alt="">
+         <div class="voting">
+            <button id="likebtn">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </button>
+            <input type="number" id="input1" value="0" name="">
+
+            <button id="dislikebtn">
+                <i class="fa-solid fa-thumbs-down"></i>
+            </button>
+            <input type="number" id="input2" value="0" name="">
+         </div> 
+        </div>  
+
+        <div class="box">
+         <img src="https://images.unsplash.com/photo-1613479267503-eafa8b242987?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" alt="">
+         <div class="voting">
+            <button id="likebtn1">
+                <i class="fa-solid fa-thumbs-up"></i>
+            </button>
+            <input type="number" id="input3" value="0" name="">
+
+            <button id="dislikebtn1">
+                <i class="fa-solid fa-thumbs-down"></i>
+            </button>
+            <input type="number" id="input4" value="0" name="">
+         </div> 
+        </div>  
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1615920292087-6d9f818e9e13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" alt="">
+            <div class="voting">
+               <button id="likebtn2">
+                   <i class="fa-solid fa-thumbs-up"></i>
+               </button>
+               <input type="number" id="input5" value="0" name="">
+   
+               <button id="dislikebtn2">
+                   <i class="fa-solid fa-thumbs-down"></i>
+               </button>
+               <input type="number" id="input6" value="0" name="">
+            </div> 
+           </div>  
+    </div>
+    <script type="text/javascript" >
+       var liKebtn=document.getElementById('likebtn');
+        var disliKebtn=document.getElementById('dislikebtn');
+        var input1=document.getElementById('input1');
+        var input2=document.getElementById('input2');
+        liKebtn.addEventListener('click',()=>{
+         input1.value=parseInt(input1.value)+1;
+        })  
+
+        disliKebtn.addEventListener('click',()=>{
+input2.value=parseInt(input2.value)+1;
+        })  
+
+        var liKebtn1=document.getElementById('likebtn1');
+        var disliKebtn1=document.getElementById('dislikebtn1');
+        var input3=document.getElementById('input3');
+        var input4=document.getElementById('input4');
+        liKebtn1.addEventListener('click',()=>{
+         input3.value=parseInt(input3.value)+1;
+        })  
+
+        disliKebtn1.addEventListener('click',()=>{
+input4.value=parseInt(input4.value)+1;
+        })  
+
+        var likebtn2=document.getElementById('likebtn2');
+        var disliKebtn2=document.getElementById('dislikebtn2');
+        var input5=document.getElementById('input5');
+        var input6=document.getElementById('input6');
+        liKebtn2.addEventListener('click',()=>{
+         input5.value=parseInt(input5.value)+1;
+        })  
+
+        disliKebtn2.addEventListener('click',()=>{
+input6.value=parseInt(input6.value)+1;
+        })  
+    </script>
+</body>
+</html>
