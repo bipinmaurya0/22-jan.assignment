@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.gallery img{
+    filter: grayscale(100%);
+    padding: 8px ;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
