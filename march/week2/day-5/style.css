@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    text-align: center;
+}
+#myul li{
+    display: inline-block;
+    width: 40vw;
+    background-color: beige;
+    margin: 2px;
+
+}
+#myul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    
+
+}
+input{
+    width: 50vw;
+    padding: 8px;
+    font-size: 18px;
+}
